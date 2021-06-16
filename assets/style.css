@@ -21,22 +21,26 @@ li {
     position: inline;
 }
 
-/* h1 {
+h1 {
     float: center;
     font-size: 24px;
     color: #4F405D;
-} */
-
-h2 {
-
 }
+
+/* h2 {
+
+} */
 /* 
 hero {
     
 } */
 
 section {
-    
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+}
 
 }
 
@@ -51,7 +55,6 @@ p {
 center {
     margin: auto;
     width: 50%;
-    border: 3px solid green;
     padding: 10px;
 }
 
@@ -62,4 +65,11 @@ center {
     width: 600px;
     height: auto;
     background-color: white;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0
+    width: 100%
 }
