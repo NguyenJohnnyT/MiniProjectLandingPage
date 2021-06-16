@@ -48,8 +48,15 @@ p {
 
 }
 
+center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
 .container {
-    position: absolute;
+    /* position: absolute; */
     margin: 30px;
     padding: 20px;
     width: 600px;
