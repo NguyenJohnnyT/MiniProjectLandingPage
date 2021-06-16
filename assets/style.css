@@ -1,10 +1,31 @@
-header {
-
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(199, 255, 199)
 }
 
-h1 {
-
+header{
+    
 }
+
+nav {
+    float: right;
+    position: inline;
+}
+
+nav ul {
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+li {
+    position: inline;
+}
+
+/* h1 {
+    float: center;
+    font-size: 24px;
+    color: #4F405D;
+} */
 
 h2 {
 
@@ -15,9 +36,23 @@ hero {
 } */
 
 section {
+    
 
 }
 
 footer {
 
+}
+
+p {
+
+}
+
+.container {
+    position: absolute;
+    margin: 30px;
+    padding: 20px;
+    width: 600px;
+    height: auto;
+    background-color: white;
 }
